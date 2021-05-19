@@ -1,17 +1,19 @@
 #include<stdio.h>
 int main() {
 	int x,y;
-	int sum=0; // 0À¸·Î ÃÊ±âÈ­ ÇØÁÖ¾î¾ß ÇÑ´Ù. 
 	
-	printf("x¸¦ ÀÔ·Â: ");
-	scanf("%d",&x); // scanf ÇÔ¼ö¸¦ »ç¿ëÇÏ¸é ÀÚµ¿À¸·Î ÁÙ ¹Ù²Ş µÊ
+	printf("xë¥¼ ì…ë ¥: ");
+	scanf("%d",&x); // scanf í•¨ìˆ˜ë¥¼ ì‚¬ìš©í•˜ë©´ ìë™ìœ¼ë¡œ ì¤„ ë°”ê¿ˆ ë¨
 	
-	printf("y¸¦ ÀÔ·Â: ");
+	printf("yë¥¼ ì…ë ¥: ");
 	scanf("%d",&y);
 	
-	sum=x+y;
-	printf("\n==¿¬»ê °á°ú==\n\n");
+	printf("\n==ê³„ì‚°ê²°ê³¼==\n\n");
 	
-	printf("x+y=%d \n\n",sum); // sumÀ» Ãâ·Â 
-	printf("x+y=%d", x+y); // ¿¬»êÇÏ¿© Ãâ·Âµµ °¡´ÉÇÏ´Ù. 
+	printf("%d + %d = %d\n",x,y,x+y);
+	printf("%d - %d = %d\n",x,y,x-y);
+	printf("%d * %d = %d\n",x,y,x*y);
+	printf("%d / %d = %d...%d\n",x,y,x/y,x%y); 
+	// ì •ìˆ˜í˜• ì´ë¯€ë¡œ ëª« ë³´ë‹¤ ë‚˜ëˆ„ëŠ” ê°’ì´ í¬ë©´ ë‚˜ëˆ„ì–´ì§€ì§€ ì•ŠëŠ”ë‹¤. 
+	 
 }
