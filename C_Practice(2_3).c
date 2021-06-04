@@ -13,7 +13,7 @@ int main() {
 	printf("%d + %d = %d\n",x,y,x+y);
 	printf("%d - %d = %d\n",x,y,x-y);
 	printf("%d * %d = %d\n",x,y,x*y);
-	printf("%d / %d = %d...%d\n",x,y,x/y,x%y); 
+	printf("%d / %d = %d...%d\n",x,y,x/y,x%y);
 	// 정수형 이므로 몫 보다 나누는 값이 크면 나누어지지 않는다. 
 	 
 }
