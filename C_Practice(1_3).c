@@ -7,3 +7,4 @@ int main() {
 	printf("%lf\n",1.0);
 	printf("%.1f\n",1.0);
 }
+ 
