@@ -7,3 +7,4 @@ int main() {
 	
 	printf("x: %d",x); // x에 저장된 값 출력  
 }
+ 
