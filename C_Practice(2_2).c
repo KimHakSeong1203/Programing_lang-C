@@ -8,7 +8,7 @@ int main() {
 	
 	printf("y를 입력: ");
 	scanf("%d",&y);
-	
+	 
 	sum=x+y;
 	printf("\n==연산 결과==\n\n");
 	
